@@ -1,4 +1,10 @@
 library(shiny)
+library(BH)
+library(rCharts)
+require(markdown)
+require(data.table)
+library(dplyr)
+library(DT)
 
 shinyUI(pageWithSidebar(
                 headerPanel("FIFA World Cup 2014 - All Players"),
